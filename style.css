@@ -1,0 +1,20 @@
+/* 기본 스타일 초기화 */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* 이미지 컨테이너 */
+.image-container {
+    width: 100%;  /* 화면 가로 길이에 맞춤 */
+    height: auto; /* 세로 길이는 자동으로 조정 */
+}
+
+/* 배경 이미지 스타일 */
+.fullscreen-image {
+    width: 100%;  /* 이미지 가로 길이를 100%로 설정 */
+    height: auto; /* 세로 비율 유지 */
+    object-fit: cover; /* 이미지 비율을 유지하며 화면을 덮도록 */
+}
